@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { GanttchartComponent } from './ganttchart/ganttchart.component';
+import { GanttChartView } from './DlhSoft.ProjectData.GanttChart.Angular.Components';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GanttchartComponent
+    GanttChartView
   ],
   imports: [
     BrowserModule
