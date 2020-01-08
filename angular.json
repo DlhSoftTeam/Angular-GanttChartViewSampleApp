@@ -26,7 +26,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": ["src/DlhSoft.ProjectData.GanttChart.HTML.Controls.js", "src/DlhSoft.Data.HTML.Controls.js"]
+            "scripts": ["src/app/DlhSoft/DlhSoft.ProjectData.GanttChart.HTML.Controls.js", "src/app/DlhSoft/DlhSoft.Data.HTML.Controls.js"]
           },
           "configurations": {
             "production": {
