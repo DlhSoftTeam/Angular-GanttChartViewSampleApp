@@ -1,1 +1,0 @@
-ng build --prod --base-href /GanttChartHyperLibrary/Demos/Samples/Angular/GanttChartView/MainFeatures/
