@@ -82,7 +82,7 @@ export class LoadChartView implements OnInit {
     var element = <HTMLElement>this.rootElement.firstChild;
     element.setAttribute('style', this.style);
     var changeHandler = this.settings.itemPropertyChangeHandler;
-    DlhSoft.Controls.ScheduleChartView.initialize(element, this.items, this.settings, this.license);
+    DlhSoft.Controls.LoadChartView.initialize(element, this.items, this.settings, this.license);
     if (this.change) {
       this.settings.itemPropertyChangeHandler = (item, propertyName, isDirect, isFinal) => {
       if (changeHandler)
