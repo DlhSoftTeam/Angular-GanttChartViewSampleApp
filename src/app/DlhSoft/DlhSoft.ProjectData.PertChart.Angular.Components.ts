@@ -25,8 +25,8 @@ export class PertChartView implements OnInit {
     DlhSoft.Controls.Pert.PertChartView.initialize(element, this.items, this.settings, this.license);
     if (this.change) {
       this.settings.itemPropertyChangeHandler = (item, propertyName, isDirect, isFinal) => {
-      if (changeHandler)
-        changeHandler(item, propertyName, isDirect, isFinal);
+        if (changeHandler)
+          changeHandler(item, propertyName, isDirect, isFinal);
         this.change(item, propertyName, isDirect, isFinal);
       }
     }
@@ -54,8 +54,8 @@ export class PertChartView implements OnInit {
       DlhSoft.Controls.Pert.NetworkDiagramView.initialize(element, this.items, this.settings, this.license);
       if (this.change) {
         this.settings.itemPropertyChangeHandler = (item, propertyName, isDirect, isFinal) => {
-        if (changeHandler)
-          changeHandler(item, propertyName, isDirect, isFinal);
+          if (changeHandler)
+            changeHandler(item, propertyName, isDirect, isFinal);
           this.change(item, propertyName, isDirect, isFinal);
         }
       }
