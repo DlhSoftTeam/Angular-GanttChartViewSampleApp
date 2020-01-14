@@ -27,8 +27,8 @@ export class GanttChartView implements OnInit {
     DlhSoft.Controls.GanttChartView.initialize(element, this.items, this.settings, this.license);
     if (this.change) {
       this.settings.itemPropertyChangeHandler = (item, propertyName, isDirect, isFinal) => {
-      if (changeHandler)
-        changeHandler(item, propertyName, isDirect, isFinal);
+        if (changeHandler)
+          changeHandler(item, propertyName, isDirect, isFinal);
         this.change(item, propertyName, isDirect, isFinal);
       }
     }
@@ -56,8 +56,8 @@ export class ScheduleChartView implements OnInit {
     DlhSoft.Controls.ScheduleChartView.initialize(element, this.items, this.settings, this.license);
     if (this.change) {
       this.settings.itemPropertyChangeHandler = (item, propertyName, isDirect, isFinal) => {
-      if (changeHandler)
-        changeHandler(item, propertyName, isDirect, isFinal);
+        if (changeHandler)
+          changeHandler(item, propertyName, isDirect, isFinal);
         this.change(item, propertyName, isDirect, isFinal);
       }
     }
@@ -85,8 +85,8 @@ export class LoadChartView implements OnInit {
     DlhSoft.Controls.LoadChartView.initialize(element, this.items, this.settings, this.license);
     if (this.change) {
       this.settings.itemPropertyChangeHandler = (item, propertyName, isDirect, isFinal) => {
-      if (changeHandler)
-        changeHandler(item, propertyName, isDirect, isFinal);
+        if (changeHandler)
+          changeHandler(item, propertyName, isDirect, isFinal);
         this.change(item, propertyName, isDirect, isFinal);
       }
     }
